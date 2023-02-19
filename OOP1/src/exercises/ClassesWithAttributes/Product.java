@@ -10,7 +10,7 @@ public class Product {
 	// Not-2: Bir sınıfa ait metot veya değişken private olarak tanımlandığında sadece kendi sınıfının üyeleri (sadece tanımlandığı bloğun içerisinden) tarafından erişilebilir olmaktadır.
 	// Dışarıdan erişim hiçbir şekilde mümkün değildir. 
 	
-	private int id; // aslında burada ilk başta tanımlanan özelliklerin tamamının başında "public" vardır. Fakat erişim belirtecini direkt yazarak değiştirebiliriz.
+	private int id; // aslında burada -ilk başta- tanımlanmış özelliklerin tamamının başında "public" vardır. Fakat erişim belirtecini kendimiz belirterek değiştirebiliriz.
 	private String _name;
 	private String description; // açıklama
 	private double price;

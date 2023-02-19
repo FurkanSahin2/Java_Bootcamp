@@ -44,13 +44,15 @@ public class Main {
 		CorporateCustomer corporateCustomer = new CorporateCustomer();
 		corporateCustomer.setId(2);
 		corporateCustomer.setCompanyName("Kodlama.io");
-		corporateCustomer.setPhone("0545555555");
+		corporateCustomer.setPhone("05455555555");
 		corporateCustomer.setTaxNumber("111111111");
 		corporateCustomer.setCustomerNumber("54321");
 		
-		Customer[] customers = {individualCustomer, corporateCustomer};
+		Customer[] customers = new Customer[] {individualCustomer, corporateCustomer};
 	
-		
+		for (Customer customer : customers) {
+			System.out.println(customer.getPhone());
+		}
 
 	}
 
